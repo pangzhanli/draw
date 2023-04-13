@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
+User-agent: Twitterbot
 Disallow:
+
+User-agent: facebookexternalhit
+Disallow:
+
+user-agent: *
+Allow: /$
+Disallow: /
